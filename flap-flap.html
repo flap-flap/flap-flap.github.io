@@ -18,6 +18,55 @@
  	body {
  		background-image:url(bg-body.jpg);
  	}
+    nav {
+  width:1280px;
+  margin: 0 auto;
+  margin-top:-700px;
+}
+
+nav:before{
+  content:''; 
+  display:block;
+  height:50px;
+  width:100%;
+  background:#000;
+  position:absolute;
+  left:0;
+  z-index:-1;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+}
+
+ul li{
+  float:left;
+}
+
+ul li a{
+  color:#fff;
+  display:block;
+  height:50px;
+  padding:0 30px;
+  text-transform:uppercase;
+  text-decoration:none;
+  line-height:50px;
+}
+
+ul li a:hover{
+  background:#d34d43;
+}
  </style>
+  <nav>
+  <ul>
+    <li><a href="index.html">Background 1</a></li>
+    <li><a href="index2.html">Background 2</a></li>
+    <li><a href="register.html">Register</a></li>
+    <li><a href="flap-flap.html">Flappy bird</a></li>
+  </ul>
+</nav>
  </body>
  </html>

@@ -58,7 +58,7 @@ function draw() {
 
  pipe[i].x--;
 
- if(pipe[i].x == 125) {
+ if(pipe[i].x == 123) {
  pipe.push({
  x : cvs.width,
  y : Math.floor(Math.random() * pipeUp.height) - pipeUp.height
@@ -73,7 +73,7 @@ function draw() {
  location.reload(); // Перезагрузка страницы
  }
 
- if(pipe[i].x == 5) {
+ if(pipe[i].x == 4) {
  score++;
  score_audio.play();
  }
